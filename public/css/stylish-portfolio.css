@@ -6,26 +6,22 @@ body {
   width: 100%;
 }
 
+.row {
+  margin: 0;
+}
+
 .vert-text {
   display: table-cell;
   vertical-align: middle;
+  text-align: center;
   color: #FFF;
 }
 
 .vert-text h1 {
   padding: 0;
+  margin: 0;
   font-size: 4.5em;
   font-weight: 700;
-}
-
-.vert-r{
-  padding: 0 50px 0 0;
-  text-align: right;
-}
-
-.vert-l{
-  padding: 0 0 0 50px;
-  text-align: left;
 }
 
 /* Side Menu */
@@ -169,7 +165,7 @@ i.service-icon:hover {
 .callout {
   color: #ffffff;
   display: table;
-  height: 300px;
+  height: 400px;
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -186,7 +182,7 @@ i.service-icon:hover {
 }
 
 .callout-life {
-  background: url(../img/life.JPG) no-repeat center center fixed;
+  background: url(../img/lifeback.JPG) no-repeat center center fixed;
 }
 
 /* Portfolio */
@@ -204,30 +200,31 @@ i.service-icon:hover {
 }
 
 
-/* Contact */
+/* Call to Action */
 
-.contact {
-  color: #ffffff;
-  background: #0a5175;
+.call-to-action {
+  color: white;
+  background: black;
   padding: 50px 0;
 }
 
-.contact .btn {
+.call-to-action .btn {
   margin: 10px;
 }
 
 /* Footer */
 
 footer {
-  padding: 10px 0;
+  padding: 50px 0;
 }
 
 footer a {
-  color: grey;
+  color: black;
 }
 
 footer a:active,
 footer a:hover,
 footer a:focus {
-  text-decoration: none; 
+  text-decoration: none;
+  color:grey;
 }
