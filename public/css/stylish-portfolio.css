@@ -6,6 +6,19 @@ body {
   width: 100%;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+a:active,
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:#D1D1D1;
+}
+
 .row {
   margin: 0;
 }
@@ -95,7 +108,7 @@ body {
   z-index: 1;
   color: black;
   background-color: white;
-  border-color: white;
+  border-color: black;
 }
 
 #sidebar-wrapper.active {
@@ -165,7 +178,7 @@ i.service-icon:hover {
 .callout {
   color: #ffffff;
   display: table;
-  height: 400px;
+  height: 300px;
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -175,14 +188,17 @@ i.service-icon:hover {
 
 .callout-code {
   background: url(../img/code.JPG) no-repeat center center fixed;
+  background-size: 100% auto;
 }
 
 .callout-music {
   background: url(../img/music.JPG) no-repeat center center fixed;
+  background-size: 100% auto;
 }
 
 .callout-life {
   background: url(../img/lifeback.JPG) no-repeat center center fixed;
+  background-size: 100% auto;
 }
 
 /* Portfolio */
@@ -212,6 +228,10 @@ i.service-icon:hover {
   margin: 10px;
 }
 
+#contact a {
+  color: white;
+}
+
 /* Footer */
 
 footer {
@@ -220,11 +240,4 @@ footer {
 
 footer a {
   color: black;
-}
-
-footer a:active,
-footer a:hover,
-footer a:focus {
-  text-decoration: none;
-  color:grey;
 }
