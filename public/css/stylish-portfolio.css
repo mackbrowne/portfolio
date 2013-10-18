@@ -27,11 +27,11 @@ a:focus {
 }
 
 .codepic img{
-  max-height:300px;
-  max-width: 500px;
-  height: auto;
-  width:auto;
-  margin: 20px auto;
+ /* max-height:300px;
+ max-width: 90%;*/
+ height: auto;
+ width:auto;
+ margin: 20px auto;
 }
 
 .vert-text {
@@ -197,6 +197,18 @@ i.service-icon:hover {
 
 /* Callout */
 
+.callout-code {
+  background: url(../img/headers/code.JPG) no-repeat center center fixed;
+}
+
+.callout-music {
+  background: url(../img/headers/music.JPG) no-repeat center center fixed;
+}
+
+.callout-life {
+  background: url(../img/headers/lifeback.JPG) no-repeat center center fixed;
+}
+
 .callout {
   color: #ffffff;
   display: table;
@@ -206,21 +218,6 @@ i.service-icon:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.callout-code {
-  background: url(../img/headers/code.JPG) no-repeat center center fixed;
-  background-size: 100% auto;
-}
-
-.callout-music {
-  background: url(../img/headers/music.JPG) no-repeat center center fixed;
-  background-size: 100% auto;
-}
-
-.callout-life {
-  background: url(../img/headers/lifeback.JPG) no-repeat center center fixed;
-  background-size: 100% auto;
 }
 
 /* Portfolio */
@@ -265,10 +262,26 @@ footer a {
 }
 
 /* Life Pictures */
-.col-sm-6 {
-  padding: 30px;
+.lifeList .col-sm-6,
+.lifeList .col-lg-4 {
+  /*padding: 1.3em 3.4em;*/
+  /* padding: 1.3em 1em;*/
+  /*padding: 1.3em 1em;  landscape */
+  /* padding: 1.3em 3.4em; portrait*/
+}
+
+@media screen and (orientation:portrait) {
+  /* Life Pictures */
+  .lifeList .col-sm-6,
+  .lifeList .col-lg-4 {
+    /*padding: 1.3em 3.4em;*/
+    /* padding: 1.3em 1em;*/
+    /*padding: 1.3em 1em;  landscape */
+    padding: 1.3em 3.4em;   /* portrait*/
+  }
 }
 
 .musicList { 
-  padding-top:50px;
+  padding: 50px 0;
+  list-style: none;
 }
