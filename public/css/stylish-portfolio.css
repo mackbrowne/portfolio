@@ -8,9 +8,8 @@ body {
 
 a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
-
 
 a:active,
 a:hover,
@@ -21,6 +20,18 @@ a:focus {
 
 .row {
   margin: 0;
+}
+
+.codebody {
+  min-height: 300px;
+}
+
+.codepic img{
+  max-height:300px;
+  max-width: 500px;
+  height: auto;
+  width:auto;
+  margin: 20px auto;
 }
 
 .vert-text {
@@ -34,6 +45,11 @@ a:focus {
   padding: 0;
   margin: 0;
   font-size: 4.5em;
+  font-weight: 700;
+  text-shadow: 0 0 20px black;
+}
+
+.vert-text h3 {
   font-weight: 700;
   text-shadow: 0 0 20px black;
 }
@@ -133,11 +149,16 @@ a:focus {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/bg.JPG) no-repeat center center fixed; 
+  background: url(../img/headers/bg.JPG) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
 }
 
 /* Intro */
@@ -188,17 +209,17 @@ i.service-icon:hover {
 }
 
 .callout-code {
-  background: url(../img/code.JPG) no-repeat center center fixed;
+  background: url(../img/headers/code.JPG) no-repeat center center fixed;
   background-size: 100% auto;
 }
 
 .callout-music {
-  background: url(../img/music.JPG) no-repeat center center fixed;
+  background: url(../img/headers/music.JPG) no-repeat center center fixed;
   background-size: 100% auto;
 }
 
 .callout-life {
-  background: url(../img/lifeback.JPG) no-repeat center center fixed;
+  background: url(../img/headers/lifeback.JPG) no-repeat center center fixed;
   background-size: 100% auto;
 }
 
@@ -241,4 +262,13 @@ footer {
 
 footer a {
   color: black;
+}
+
+/* Life Pictures */
+.col-sm-6 {
+  padding: 30px;
+}
+
+.musicList { 
+  padding-top:50px;
 }
