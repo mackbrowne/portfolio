@@ -132,10 +132,10 @@
        <hr>
        <div class="row codebody">   
         <div class="col-lg-7 col-md-7 codepic">
-          <a href="http://dl.dropbox.com/u/12902509/Synth/synth.html"><img class="img-responsive" src="img/code/synth.jpg"></a>
+          <a href="https://dl.dropboxusercontent.com/u/12902509/PortfolioLinks/Synth/synth.html"><img class="img-responsive" src="img/code/synth.jpg"></a>
         </div>
         <div class="col-lg-5 col-md-5">
-          <h3><a href="http://dl.dropbox.com/u/12902509/Synth/synth.html" target="_blank">MackSynth</a></h3>
+          <h3><a href="https://dl.dropboxusercontent.com/u/12902509/PortfolioLinks/Synth/synth.html" target="_blank">MackSynth</a></h3>
           <h4>Synthesizer Development - 2012 - Independent</h4>
           <p>
             This was a project for a class that I took to the next level. Using the riffWave.js library, the MackSynth can play a variety of digital waves in a 3 musical octave range. Each wave equation needed to be re arranged to output a frequency in Hz. I derived these custom equations myself then the riffwave tool would convert the wave data into audio.
@@ -146,7 +146,7 @@
         <hr>
         <div class="row codebody">   
           <div class="col-lg-7 col-md-7 codepic">
-            <a href="http://www.advatumdisplays.com/"><img class="img-responsive" src="img/code/advatum.jpg"></a>
+            <a href="http://www.advatumdisplays.com/" target="_blank"><img class="img-responsive" src="img/code/advatum.jpg"></a>
           </div>
           <div class="col-lg-5 col-md-5">
             <h3><a href="http://www.advatumdisplays.com/" target="_blank">Advatum Displays</a></h3>
@@ -160,7 +160,7 @@
         <hr>
         <div class="row codebody">   
           <div class="col-lg-7 col-md-7 codepic">
-            <a href="https://code.google.com/p/kmt-thesis/"><img class="img-responsive" src="img/code/thesis.jpg"></a>
+            <a href="https://code.google.com/p/kmt-thesis/" target="_blank"><img class="img-responsive" src="img/code/thesis.jpg"></a>
           </div>
           <div class="col-lg-5 col-md-5">
             <h3><a href="https://code.google.com/p/kmt-thesis/" target="_blank">Concurrent Web Crawling Using Clojure</a></h3>
@@ -299,7 +299,7 @@
                 </a>
               </li>
               <li>
-                <a href="http://www.facebook.com/mackbrownedj">
+                <a href="http://www.facebook.com/mackbrownedj" target="_blank">
                   <i class="icon-facebook icon-2x"></i>
                 </a>
               </li>
@@ -349,38 +349,7 @@
       <!-- Placed at the end of the document so the pages load faster -->
       <script src="js/jquery.js"></script>
       <script src="js/bootstrap.js"></script>
-
-      <!-- Custom JavaScript for the Side Menu - Put in a custom JS file if you want to clean this up -->
-      <script>
-      $(".menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-      });
-      </script>
-      <script>
-      $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-      });
-      </script>
-      <script>
-      $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-            || location.hostname == this.hostname) {
-
-            var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html,body').animate({
-              scrollTop: target.offset().top
-            }, 1000);
-            return false;
-          }
-        }
-      });
-      });
-      </script>
+      <script src="js/sidemenu.js"></script>
 
     </body>
     </html>
