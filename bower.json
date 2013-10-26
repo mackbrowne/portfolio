@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "0.2.0",
+  "homepage": "http://mackbrowne.com",
+  "authors": [
+    "Mackenzie Browne <mackbrowne@gmail.com>"
+  ],
+  "description": "Personal portfolio website built on bootstrap 3",
+  "main": "index.html",
+  "keywords": [
+    "portfolio",
+    "mack",
+    "browne"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0"
+  }
+}
