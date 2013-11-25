@@ -153,7 +153,7 @@ a:focus {
   margin: 0;
   padding: 0;
   position: relative;
-  background: url(../img/headers/bg.JPG) no-repeat center center fixed; 
+  background: url(../img/headers/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -202,15 +202,15 @@ i.service-icon:hover {
 /* Callout */
 
 .callout-code {
-  background: url(../img/headers/code.JPG) no-repeat center center fixed;
+  background: url(../img/headers/code.jpg) no-repeat center center fixed;
 }
 
 .callout-music {
-  background: url(../img/headers/music.JPG) no-repeat center center fixed;
+  background: url(../img/headers/music.jpg) no-repeat center center fixed;
 }
 
 .callout-life {
-  background: url(../img/headers/lifeback.JPG) no-repeat center center fixed;
+  background: url(../img/headers/lifeback.jpg) no-repeat center center fixed;
 }
 
 .callout {
