@@ -8,6 +8,10 @@
     "bower": "latest"
   },
   "devDependencies": {},
+  ,"engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
   "scripts": {
     "test": "node server.js",
     "start": "node server.js",
