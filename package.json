@@ -1,0 +1,24 @@
+{
+  "name": "Portfolio",
+  "version": "0.2.1",
+  "description": "Mack Browne Personal Portfolio 2013",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mackbrowne/portfolio.git"
+  },
+  "author": "Mackenzie Browne",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/mackbrowne/portfolio/issues"
+  }
+}
