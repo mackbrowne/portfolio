@@ -18,6 +18,10 @@ a:focus {
   color:#D1D1D1;
 }
 
+.col-lg-4 {
+  padding:20px;
+}
+
 .row {
   margin: 0;
 }
@@ -121,6 +125,8 @@ a:focus {
 #menu-toggle {
   top: 0;
   right: 0;
+  margin: 15px;
+  padding: 10px 16px;
   position: fixed;
   z-index: 1;
   color: black;
@@ -234,6 +240,17 @@ i.service-icon:hover {
   margin: 0 auto;
 }
 
+/* Interests */
+
+.container {
+  text-align: center;
+}
+
+.interest {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+}
 
 /* Call to Action */
 
@@ -261,27 +278,36 @@ footer a {
   color: black;
 }
 
-/* Life Pictures */
-.lifeList .col-sm-6,
-.lifeList .col-lg-4 {
-  /*padding: 1.3em 3.4em;*/
-  /* padding: 1.3em 1em;*/
-  /*padding: 1.3em 1em;  landscape */
-  /* padding: 1.3em 3.4em; portrait*/
-}
-
-@media screen and (orientation:portrait) {
-  /* Life Pictures */
-  .lifeList .col-sm-6,
-  .lifeList .col-lg-4 {
-    /*padding: 1.3em 3.4em;*/
-    /* padding: 1.3em 1em;*/
-    /*padding: 1.3em 1em;  landscape */
-    padding: 1.3em 3.4em;   /* portrait*/
-  }
-}
-
 .musicList { 
   padding: 50px 0;
   list-style: none;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+  h3 {
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 1.7em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  i.icon-reorder{
+    font-size: 50px;
+  }
+
+  #menu-toggle {
+    padding: 30px 40px;
+  }
+
+  .vert-text h1.subheading {
+    font-size: 12em;
+  }
+
 }
