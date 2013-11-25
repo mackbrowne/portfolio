@@ -18,10 +18,6 @@ a:focus {
   color:#D1D1D1;
 }
 
-.col-lg-4 {
-  padding:20px;
-}
-
 .row {
   margin: 0;
 }
@@ -154,6 +150,8 @@ a:focus {
   display: table;
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
   position: relative;
   background: url(../img/headers/bg.JPG) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -227,17 +225,8 @@ i.service-icon:hover {
 }
 
 /* Portfolio */
-
-.portfolio {
-  padding: 50px 0;
-}
-
 .portfolio-item {
   margin-bottom: 25px;
-}
-
-.img-portfolio {
-  margin: 0 auto;
 }
 
 /* Interests */
@@ -248,6 +237,8 @@ i.service-icon:hover {
 
 .interest {
   margin: 0 auto;
+  padding: 0 10px;
+  margin-top:15px;
   width: 100%;
   max-width: 700px;
 }
@@ -283,31 +274,18 @@ footer a {
   list-style: none;
 }
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) { 
 
-  h3 {
-    font-size: 2em;
+/* iPhone fixes */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+  .vert-text h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 3.8em;
+    font-weight: 700;
+    text-shadow: 0 0 20px black;
   }
-
-  h4 {
-    font-size: 1.7em;
-  }
-
-  p {
-    font-size: 1.5em;
-  }
-
-  i.icon-reorder{
-    font-size: 50px;
-  }
-
-  #menu-toggle {
-    padding: 30px 40px;
-  }
-
-  .vert-text h1.subheading {
-    font-size: 12em;
-  }
-
 }
