@@ -4,7 +4,8 @@
   "description": "Mack Browne Personal Portfolio 2013",
   "main": "server.js",
   "dependencies": {
-    "express": "~3.4.4"
+    "express": "~3.4.4",
+    "bower": "latest"
   },
   "devDependencies": {},
   "scripts": {
