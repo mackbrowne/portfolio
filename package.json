@@ -3,20 +3,20 @@
   "version": "0.2.1",
   "description": "Mack Browne Personal Portfolio 2013",
   "main": "server.js",
-  "dependencies": {
-    "express": "~3.4.4",
-    "bower": "latest"
-  },
-  "devDependencies": {},
-  ,"engines": {
+  "engines": {
     "node": "0.10.x",
     "npm": "1.2.x"
-  },
+  },  
   "scripts": {
     "postinstall": "bower install",
     "test": "node server.js",
     "start": "node server.js"
   },
+  "dependencies": {
+    "express": "~3.4.4",
+    "bower": "latest"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/mackbrowne/portfolio.git"

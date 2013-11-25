@@ -11,7 +11,7 @@
     "portfolio",
     "mack",
     "browne"
-  ],
+  ], 
   "license": "MIT",
   "ignore": [
     "**/.*",
