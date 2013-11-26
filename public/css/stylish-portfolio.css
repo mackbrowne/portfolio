@@ -234,6 +234,7 @@ i.service-icon:hover {
 .interestPic {
   width: 100%;
   max-width: 700px;
+  padding: 10px;
 }
 
 .lifeList {
