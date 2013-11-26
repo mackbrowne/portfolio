@@ -46,7 +46,7 @@ a:focus {
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
-  text-shadow: 0 0 20px black;
+  text-shadow: -1px 1px 40px black;
 }
 
 .vert-text h3 {
@@ -153,7 +153,7 @@ a:focus {
   margin: 0;
   padding: 0;
   position: relative;
-  background: url(../img/headers/bg.jpg) no-repeat center center fixed; 
+  background: url(../img/headers/bg.jpg) no-repeat center left fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -231,16 +231,23 @@ i.service-icon:hover {
 
 /* Interests */
 
-.interestContainer {
+.interestPic {
+  width: 100%;
+  max-width: 700px;
+}
+
+.lifeList {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.lifeList div {
+  margin-bottom: 20px;
   text-align: center;
 }
 
-.interest {
-  margin: 0 auto;
-  padding: 0 10px;
-  margin-top:15px;
-  width: 100%;
-  max-width: 700px;
+.lifeList div p {
+  min-height: 40px;
 }
 
 /* Call to Action */
@@ -274,9 +281,17 @@ footer a {
   list-style: none;
 }
 
+@media (max-width: 768px) { 
+  .vert-text {
+    vertical-align: bottom;
+  }
+
+  .vert-text .row {
+    margin-bottom: 30px;
+  }
+}
 
 /* iPhone fixes */
-
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
