@@ -282,11 +282,11 @@ footer a {
 }
 
 @media (max-width: 768px) { 
-  .vert-text {
+  #top .vert-text {
     vertical-align: bottom;
   }
 
-  .vert-text .row {
+  #top .vert-text .row {
     margin-bottom: 30px;
   }
 }
