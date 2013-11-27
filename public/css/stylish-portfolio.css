@@ -233,7 +233,8 @@ i.service-icon:hover {
 
 .interestPic {
   width: 100%;
-  max-width: 700px;
+  max-width: 290px;
+  margin: 0 auto;
   padding: 10px;
 }
 
@@ -292,7 +293,7 @@ footer a {
   }
 }
 
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+@media device and (-webkit-min-device-pixel-ratio: 1.5) {
   .header {
     background: url(../img/headers/bg.jpg) no-repeat 0 center !important; 
   }
