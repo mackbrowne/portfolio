@@ -212,6 +212,10 @@ i.service-icon:hover {
 .callout-life {
   background: url(../img/headers/lifeback.jpg) no-repeat center center fixed;
 }
+ 
+.callout-blog {
+    background: url(../img/headers/blog.jpg) no-repeat center center fixed;
+}
 
 .callout {
   color: #ffffff;
@@ -268,6 +272,20 @@ i.service-icon:hover {
   color: white;
 }
 
+/* Blog */
+a.list-group-item.active{
+  background-color: black;
+}
+
+a.list-group-item.active:hover{
+  background-color: #696969;
+}
+
+#blogHeaderLink{
+  color:white;
+}
+
+
 /* Footer */
 
 footer {
@@ -310,7 +328,11 @@ footer a {
     background: url(../img/headers/lifeback.jpg) no-repeat center -50px !important;
   }
 
-  .header .callout-life, .callout-code, .callout-music {
+  .callout-blog {
+    background: url(../img/headers/blog.jpg) no-repeat center center !important;
+  }
+
+  .header .callout-life, .callout-code, .callout-music, .callout-blog {
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;

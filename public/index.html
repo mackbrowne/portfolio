@@ -30,6 +30,7 @@
      <li><a href="#code" class="menu-close">Code</a></li>
      <li><a href="#music" class="menu-close">Music</a></li>
      <li><a href="#life" class="menu-close">Life</a></li>
+      <li><a href="#blog" class="menu-close">Blog</a></li>
      <li><a href="#contact" class="menu-close">Contact</a></li>
    </ul>
  </div>
@@ -241,39 +242,63 @@
           <!-- use xs visible and sm visible and just do separate row / columns -->
           <div class="col-sm-4 col-xs-6">
             <img class="img-circle img-responsive interestPic" src="img/life/snowboarding.jpg">
-              <h3>Snowboard</h3>
-              <p>Riding fresh powder is the best activity to do in the winter.</p>
+            <h3>Snowboard</h3>
+            <p>Riding fresh powder is the best activity to do in the winter.</p>
           </div>
           <div class="col-sm-4 col-xs-6">
             <img class="img-circle img-responsive interestPic" src="img/life/climb.jpg">
-              <h3>Climb</h3>
-              <p>A tough, addictive and extremely fun full-body workout.</p>
+            <h3>Climb</h3>
+            <p>A tough, addictive and extremely fun full-body workout.</p>
           </div>
           <div class="col-sm-4 col-xs-6">
             <img class="img-circle img-responsive interestPic" src="img/life/guitar.jpg">
-              <h3>Guitar</h3>
-              <p>Before the days of house and techno, I played in a few bands.</p>
+            <h3>Guitar</h3>
+            <p>Before the days of house and techno, I played in a few bands.</p>
           </div>
           <div class="col-sm-4 col-xs-6">
             <img class="img-circle img-responsive interestPic" src="img/life/bitcoin.jpg">
-              <h3>Bitcoin</h3>
-              <p>The unpredictable crypto-currency of the future!</p>
+            <h3>Bitcoin</h3>
+            <p>The unpredictable crypto-currency of the future!</p>
           </div>
           <div class="col-sm-4 col-xs-6">
             <img class="img-circle img-responsive interestPic" src="img/life/travel.jpg">
-              <h3>Travel</h3>
-              <p>The world is a big place...</p>
+            <h3>Travel</h3>
+            <p>The world is a big place...</p>
           </div>
           <div class="col-sm-4 col-xs-6">
             <img class="img-circle img-responsive interestPic" src="img/life/camera.jpg">
-              <h3>Photography</h3>
-              <p>DSLR for days!</p>
+            <h3>Photography</h3>
+            <p>DSLR for days!</p>
           </div>
         </div>
 
       </div>
     </div>
     <!-- /Life -->
+
+    <!-- Blog -->
+    <div id ="blog" class="callout callout-blog">
+      <div class="vert-text">
+        <div class="row">
+          <div class="col-md-6">     
+            <h1 class="subheading"><a id="blogHeaderLink" href="http://blog.mackbrowne.com">Blog</a></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="page-header">I use this blog as an outlet for anything and everything worth writing about. Find it <a href="http://blog.mackbrowne.com" target="_blank">here</a>.</h3>
+          </div>
+          <div class="col-md-12">
+            <div id="rss-feeds"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Blog -->
 
     <!-- Contact -->
     <div id="contact" class="call-to-action contact">
@@ -343,6 +368,10 @@
               <p>Copyright &copy; Mackenzie Browne 2013</p>
             </div>
           </div>
+          <div class="row">
+
+            <div id="rss-feeds"></div>
+          </div>
         </div>
       </footer>
       <!-- /Footer -->
@@ -350,6 +379,15 @@
       <!-- Bootstrap core JavaScript -->
       <!-- Placed at the end of the document so the pages load faster -->
       <script src="lib/jquery/jquery.js"></script>
+      <script src="lib/jquery-rss/src/jquery.rss.js"></script>
+      <script>      
+      jQuery(function($) {
+        $("#rss-feeds").rss("http://blog.mackbrowne.com/rss",{
+          layoutTemplate: "<div class='list-group'>{entries}</div>",
+          entryTemplate: "<a href='{url}' target='_blank' class='list-group-item active'> <h4 class='list-group-item-heading'>{title}</h4><span>{date}</span><p class='list-group-item-text'>{shortBodyPlain}</p></a>"
+        })
+      });
+      </script>
       <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
       <script src="js/sidemenu.js"></script>
 
