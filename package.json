@@ -1,7 +1,7 @@
 {
   "name": "Portfolio",
   "version": "0.2.1",
-  "description": "Mack Browne Personal Portfolio 2013",
+  "description": "Mack Browne Personal Portfolio 2014",
   "main": "server.js",
   "engines": {
     "node": "0.10.x",
